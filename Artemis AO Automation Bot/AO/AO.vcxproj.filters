@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SDK">
+      <UniqueIdentifier>{01473c81-232a-41b2-abe0-1c212b2716a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\F_Vector">
+      <UniqueIdentifier>{99e8e7f3-702c-4c14-b21a-329299f9a152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\F_Vector">
+      <UniqueIdentifier>{22c63435-2df6-4885-98e3-5995a264069c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK\Entity">
+      <UniqueIdentifier>{7fba5919-68be-477a-a4bd-63081a41f7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK\Entity\Attributes">
+      <UniqueIdentifier>{3b295d14-56af-4fd3-a794-54f58172e7af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bot">
+      <UniqueIdentifier>{593c9568-695c-43ae-b9dd-c442ccaef12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bot">
+      <UniqueIdentifier>{61e15196-52df-4f02-b803-051cccf933c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AOMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F_Vector\C_FVector.cpp">
+      <Filter>Source Files\F_Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot\ArtemisBot.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot\FightManager.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F_Vector\C_FRotation.h">
+      <Filter>Header Files\F_Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="F_Vector\C_FVector.h">
+      <Filter>Header Files\F_Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Camera.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\N3Engine.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ObjectDirectory.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Playfield.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PlayfieldDirectory.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Entity\NPC.h">
+      <Filter>Header Files\SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Entity\LocalPlayer.h">
+      <Filter>Header Files\SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Entity\Attributes\Animation.h">
+      <Filter>Header Files\SDK\Entity\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Entity\Attributes\Attacking.h">
+      <Filter>Header Files\SDK\Entity\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Entity\Attributes\EntityTransforming.h">
+      <Filter>Header Files\SDK\Entity\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Teleport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Entity\Attributes\Targeting.h">
+      <Filter>Header Files\SDK\Entity\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Entity\Entity.h">
+      <Filter>Header Files\SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot\ArtemisBot.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot\FightManager.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
